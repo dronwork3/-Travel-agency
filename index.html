@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agency</title>
+	<link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+  <div id="wrapper">
+      <h1><a href=""><img src="images/logo.gif" width="554" height="47" alt="Travel Agency" /></a></h1>
+      <div id="booking">
+          <h2>Bookings &amp; Reservations</h2>
+            <form action="?" method="get">
+              <div class="jtype">
+                  <label for="flight">Flight</label> <input name="flight" id="flight" type="checkbox" value="flight" /> &nbsp; &nbsp;
+                  <label for="hotel">Hotel</label> <input name="hotel" id="hotel" type="checkbox" value="hotel" /> &nbsp; &nbsp;
+                  <label for="cruise">Cruise</label> <input name="cruise" id="cruise" type="checkbox" value="cruise" />
+              </div>
+             
+              <table summary="" cellspacing="0" cellpadding="0" border="0px">
+                  <tr><th>Country</th><td><select name = "country" id = "country">
+                    <option>Италия</option>
+                    <option>Рим</option>
+                    <option>Венеция</option>
+                  </select></td></tr>
+                  <tr><th>Date</th><td><input name = "date" id = "date" type = "date"/></td></tr>
+                  <tr><th>Check in</th><td><input name="in" type="text" value="" class="text" /> <input type="submit" value="submit" class="submit" /></td></tr>
+                  <tr><th>Check out</th><td><input name="out" type="text" value="" class="text" /> <input type="submit" value="submit" class="submit" /></td></tr>
+              </table>
+            </form>
+      </div>
+      <div id = "log">
+        <button class = "log" type="submit">Log In</button>
+        <button class = "sign" type="submit">Sign In</button>
+      </div>
+      <div id="nav">
+        <ul>
+          <li><a href="">Home</a></li>
+          <li><a href="">Tours</a></li>
+          <li><a href="">Bookings</a></li>
+          <li><a href="">Services</a></li>
+          <li><a href="">Contacts</a></li>
+        </ul>
+      </div>
+      <div id="main">
+            <img src="images/main.jpg" width="447" height="298" alt="two people having a walk" class="block" />
+          <div class="inner">
+            <h3 class="blue">Italy</h3>
+            <img src="images/photo_1.jpg" width="109" height="71" alt="stunning italian history" class="left" />
+            <p>INFO INFOINFOINFOINFOINFO INFO INFOINFOINFOINFOINFO INFO INFOINFOINFOINFOINFO INFO INFOINFOINFOINFOINFO <a href="">Example</a>.</p>
+				
+				<br /><br />
+            <h3 class="green">Hawai</h3>
+            <img src="images/photo_2.jpg" width="109" height="71" alt="sea, the beaches" class="left" />
+			    <p>INFO INFOINFOINFOINFOINFO INFO INFOINFOINFOINFOINFO INFO INFOINFOINFOINFOINFO INFO INFOINFOINFOINFOINFO <a href="">Example</a>.</p>
+          <p>See u <a href="">OUR SITE</a>.</p>
+          <br /><br />
+
+          <h3 class="green">Hawai</h3>
+            <img src="images/photo_2.jpg" width="109" height="71" alt="sea, the beaches" class="left" />
+            <p>INFO INFOINFOINFOINFOINFO INFO INFOINFOINFOINFOINFO INFO INFOINFOINFOINFOINFO INFO INFOINFOINFOINFOINFO <a href="">Example</a>.</p>
+            <p>See u <a href="">OUR SITE</a>.</p>
+          
+            <div class="clear"></div>
+          </div>
+          <div class="clear"></div>
+      </div><!-- end main -->
+      <div id="footer">
+          &copy; 2020
+      </div>
+  </div>
+</body>
+</html>
